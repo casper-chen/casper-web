@@ -43,7 +43,12 @@
 
 <body>
 <div>
+    <a name="top" />
     <h1>Casper's Web Experience</h1>
+</div>
+
+<div>
+    <a name="schedule" />
     <h2>HTML & Fundemental Setup</h2>
     <p>Jul 4, 2018. Host a static page through Github.<br/>Jul 4, 2018. Create the 1st web page.<br/>Jul 4, 2018. Edit the page with Github version control.</p>
     <p>Jul 5, 2018. Add break and line</p>
@@ -54,6 +59,10 @@
     </ul>
 
     <!-- Use <ul></ul> for unordered list. And use <ol></ol> for ordered list. -->
+    <!-- <p>This is for <strong>bold</strong> text.</p>
+    <p>This is for <em>italic</em> text.</p>
+    <p>This is for <u>underline</u> text.</p>
+    <p>This is for <strike>strike through</strike> text.</p> -->
 
     <p> Jul 9, 2018. Add photos on the page from a web endpoint, or to the html file.</p>
     <img src="image/casper.jpg" width="200" />
@@ -63,12 +72,90 @@
     <hr/>
     <!-- <hr/> is for a separating line.  -->
 
-    <p><a href="http://www.iana.org/domains/example">More information...</a></p>
+    <p> Jul 11, 2018. Create a form with various of elements.</p>
+    <p> Jul 11, 2018. Create different kind of hyperlinks.</p>
+    <p> Jul 11, 2018. Create a simple table without format.</p>
+    <p> Jul 11, 2018. iframe integrating Youtube videos.</p>
 
-    <!-- <p>This is for <strong>bold</strong> text.</p>
-    <p>This is for <em>italic</em> text.</p>
-    <p>This is for <u>underline</u> text.</p>
-    <p>This is for <strike>strike through</strike> text.</p> -->
+</div>
+
+<div>
+  <a name="form" />
+  <h2>Sample of creating a form</h2>
+  <form>
+    <h3>Text input</h3>
+      <input type="email" placeholder="Please input an email address." />
+
+      <br><br>
+      <h3>Text area</h3>
+      <textarea type="text" placeholder="Please input any text."></textarea>
+
+      <br><br>
+
+      <h3>Multiselection</h3>
+      <select>
+        <option>Please choose...</option>
+        <option>Option 1</option>
+        <option>Option 2</option>
+        <option>Option 3</option>
+      </select>
+
+      <br><br>
+      <h3>Multiselection</h3>
+      <input type="radio" /> Option 1
+      <input type="radio" /> Option 2
+
+      <br><br>
+      <h3>Multiselection with 1 answer only</h3>
+      <input type="radio" name="options" /> Option 1
+      <input type="radio" name="options" /> Option 2
+
+      <br><br>
+      <h3>Multiselection with multiple answers</h3>
+      <input type="checkbox" name="option 4" /> Option 4
+      <input type="checkbox" name="option 5" /> Option 5
+      <input type="checkbox" name="option 6" /> Option 6
+
+      <br><br>
+
+      <input type="submit" value="Click to submit"/>
+
+  </form>
+  <!-- Use <form></form> to create a form. -->
+
+</div>
+
+<div>
+  <h2>Hyperlinks</h2>
+  <p><a href="www.google.com">External</a></p>
+  <p><a href="int_link_sample.html">Site interal</a></p>
+  <p><a href="#top">Page internal (anchor) to top</a></p>
+  <p><a href="#schedule">Page internal (anchor) to progress records</a></p>
+  <p><a href="#form">Page internal (anchor) to form</a></p>
+
+  <h3>References</h3>
+  <p><a href="https://www.w3schools.com/html/html_entities.asp">HTML Entities</a></p>
+
+</div>
+
+<div>
+  <h2>Table</h2>
+
+  <table>
+
+    <tr><th>Header 1</th><th>Header 2</th><th>Header 3</th></tr>
+    <tr><td>Detail 1a</td><td>Detail 2a</td><td>Detail 3a</td></tr>
+    <tr><td>Detail 1b</td><td>Detail 2b</td><td>Detail 3b</td></tr>
+      <!-- <tr> represents table row
+      <th> represents table header -->
+      <!-- <td> represents table details  -->
+  </table>
+
+</div>
+
+<div>
+  <h2>iframe Youtube Sample</h2>
+  <iframe width="600" height="337.5" src="https://www.youtube.com/embed/FnMC6EtMkVI" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
 
 </div>
 
