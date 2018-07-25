@@ -80,17 +80,42 @@
 </div>
 
 <div>
+  <h2>iframe Youtube Sample</h2>
+  <iframe width="600" height="337.5" src="https://www.youtube.com/embed/FnMC6EtMkVI" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+
+</div>
+
+<div>
   <a name="form" />
   <h2>Sample of creating a form</h2>
-  <form>
-    <h3>Text input</h3>
-      <input type="email" placeholder="Please input an email address." />
+  <form action="int_link_sample.html">
+    <h3><label for="mail">email</label></h3></p>
+    <input type="email" id="mail" placeholder="Please input an email address.">
+
+    <!-- Change to HTML input  -->
+    <!-- <h3>Text input</h3>
+      <input type="email" placeholder="Please input an email address." /> -->
 
       <br><br>
       <h3>Text area</h3>
       <textarea type="text" placeholder="Please input any text."></textarea>
 
       <br><br>
+      <h3><label for="numb">Number input (1-20)</label></h3></p>
+      <input type="number" id="numb" min="1" max="20" step="2">
+      <!-- Step is for the gap that will be added each time. -->
+
+      <br></br>
+      <h3><label for="Date">Date input</label></h3></p>
+      <input type="date" id="Date" min="1980-1-1" max="2018-7-15">
+      <!-- There are also other type for date and week. -->
+
+      <br></br>
+      <h3><label for="Color">Color picker</label></h3></p>
+      <input type="color" id="Color">
+      <!-- There are also other type for date and week. -->
+
+      <br></br>
 
       <h3>Multiselection</h3>
       <select>
@@ -119,6 +144,7 @@
       <br><br>
 
       <input type="submit" value="Click to submit"/>
+      <!-- The form action is added at the form tag on top -->
 
   </form>
   <!-- Use <form></form> to create a form. -->
@@ -128,7 +154,7 @@
 <div>
   <h2>Hyperlinks</h2>
   <p><a href="www.google.com">External</a></p>
-  <p><a href="int_link_sample.html">Site interal</a></p>
+  <p><a href="int_link_sample.html">Site internal</a></p>
   <p><a href="#top">Page internal (anchor) to top</a></p>
   <p><a href="#schedule">Page internal (anchor) to progress records</a></p>
   <p><a href="#form">Page internal (anchor) to form</a></p>
@@ -150,12 +176,6 @@
       <th> represents table header -->
       <!-- <td> represents table details  -->
   </table>
-
-</div>
-
-<div>
-  <h2>iframe Youtube Sample</h2>
-  <iframe width="600" height="337.5" src="https://www.youtube.com/embed/FnMC6EtMkVI" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
 
 </div>
 
